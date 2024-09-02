@@ -1,0 +1,65 @@
+.section2
+{
+    background-color: #99B4BF;
+    display: flex;
+    padding-left: 75px;
+    padding-top: 50px;
+    gap: 5%;
+}
+
+.mainPostImage
+{
+    width: 500px;
+}
+
+.mainPostText
+{
+    width: 650px;
+}
+
+.mainPost
+{
+    padding-top: 50px;
+}
+
+.tagsMainPost
+{
+    padding-top: 55px;
+    display: flex;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 430px)
+{
+    .section2
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mainPostImage
+    {
+        width: 100%;
+    }
+
+    .mainPostText
+    {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .mainPost
+    {
+        padding-top: 10px;
+    }
+
+    .tagsMainPost
+    {
+        display: flex;
+        gap: 5px;
+        padding-top: 20px;
+    }
+}

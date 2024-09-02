@@ -1,0 +1,211 @@
+.section1
+{
+    background-color: #99B4BF;
+    font-family: 'Gotu';
+    display: flex;
+    gap: 5%;
+    padding-left: 75px;
+}
+
+.recentPostsTitle
+{
+    padding-top: 100px;
+    color: navy;
+    font-weight: bolder;
+}   
+
+.mostRecentPostImage
+{
+    width: 500px;
+    padding-top: 20px;
+}
+
+.textMostRecentPosts
+{
+    padding-top: 10px;
+    width: 400px;
+}
+
+.postDate
+{
+    color: darkviolet;
+}
+
+.postTitle
+{
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.postDescription
+{
+    padding-top: 10px;
+}
+
+.tags
+{
+    
+    padding-top: 20px;
+    display: flex;
+    gap:10px;
+}
+
+.tag
+{
+    padding: 1px 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Gotu';
+    font-weight: normal;
+}
+
+.tagBlue
+{
+    background-color: blue;
+}
+
+.tagGreen
+{
+    background-color: green;
+}
+
+.tagPurple
+{
+    background-color: blueviolet;
+}
+
+.secondMostRecentPost
+{
+    padding-top: 145px;
+    display: flex;
+    gap: 2%;
+}
+
+.secondMostRecentPostImage
+{
+    width: 280px;
+}
+
+.secondMostRecentPostText
+{
+    width: 400px;
+    max-width: 100%;
+}
+
+.thirdMostRecentPost
+{
+    padding-top: 7%;
+    display: flex;
+    gap: 2%;
+}
+
+.thirdMostRecentPostImage
+{
+    width: 280px;
+}
+
+.thirdMostRecentPostText
+{
+    width: 400px;
+    max-width: 100%;
+}
+
+.tags2
+{
+    padding-top: 20px;
+    display: flex;
+    gap:10px;
+}
+
+@media only screen and (max-width: 430px)
+{
+    .section1
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .recentPostsTitle
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 30px;
+        font-size: large;
+    }
+
+    .mostRecentPost 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mostRecentPostImage
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textMostRecentPosts
+    {
+        width: 100%;
+    }
+
+    .tagsContainer
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+        width: 100%;
+    }
+
+    .secondMostRecentPost
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .secondMostRecentPostImage
+    {
+        width: 100%;
+    }
+
+    .secondMostRecentPostText
+    {
+        padding-top: 10px;
+    }
+
+    .tags
+    {
+        width: 100%;
+    }
+
+    .tags2
+    {
+        width: 100%;
+    }
+
+    .thirdMostRecentPost
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+
+    .thirdMostRecentPostImage
+    {
+        width: 100%;
+    }
+}

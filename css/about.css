@@ -1,0 +1,80 @@
+.aboutSection
+{
+    background-color: #99B4BF;
+    padding-bottom: 50px;
+}
+
+.aboutPageTitle
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    font-size: x-large;
+    align-items: center;
+}
+
+.aboutImage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding-top: 25px;
+}
+
+.text
+{
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.aboutUsTitle
+{
+    color: navy;
+    font-weight: bolder;
+}
+
+.aboutUsText
+{
+    padding-top: 15px;
+}
+
+.whatWeOffer
+{
+    color: navy;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.whatWeOfferText
+{
+    padding-top: 15px;
+}
+
+.joinUs
+{
+    padding-top: 20px;
+    color: navy;
+    font-weight: bolder;
+}
+
+.joinUsText
+{
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 430px)
+{
+    .aboutPageTitle
+    {
+        padding-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    .aboutImage
+    {
+        height: 200px;
+    }
+}

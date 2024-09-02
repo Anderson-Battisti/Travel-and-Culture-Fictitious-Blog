@@ -1,0 +1,151 @@
+.newsSection
+{
+    color: black;
+    background-color: #99B4BF;
+    padding-top: 100px;
+}
+
+.newsPageTitle
+{
+    display: flex;
+    justify-content: center;
+    color: navy;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.smallNewsContainer
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.newsSmallImages
+{
+    width: 500px;
+}
+
+.smallNewsText
+{
+    width: 500px;
+}
+
+.newsTitle 
+{
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.newsDescription
+{
+    padding-top: 15px;
+    font-weight: normal;
+    font-size: small;
+}
+
+.newsSection2
+{
+    background-color: #99B4BF;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainNewsImage
+{
+    width: 700px;
+}
+
+.mainNewsText
+{
+    width: 700px;
+}
+
+.mainNewsTitle
+{
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.mainNewsDescription
+{
+    padding-top: 15px;
+}
+
+.b
+{
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 430px)
+{
+    .newsSection
+    {
+        width: 100%; 
+    }
+
+    .newsPageTitle
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 25px;
+    }
+
+    .smallNewsContainer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .newsSmallImages
+    {
+        display: flex;
+        width: 100%; 
+    }
+
+    .smallNewsText
+    {
+        width: 100%;
+    }
+
+    .tags
+    {
+        padding-bottom: 50px;
+    }
+
+    .newsSection2
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    .mainNewsImageContainer
+    {
+        display: flex;
+        width: 80%;
+    }
+
+    .mainNewsText
+    {
+        width: 80%;
+    }
+
+    .mainNewsDescription
+    {
+        font-size: small;
+    }
+
+    .b
+    {
+        padding-top: 0px;
+    }
+}

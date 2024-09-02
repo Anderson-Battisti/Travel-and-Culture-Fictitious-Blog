@@ -1,0 +1,161 @@
+.newsletterSection
+{
+    background-color: #99B4BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.newsletterTitle
+{
+    color: darkviolet;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.newsletterText
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.historiasEntrevistas
+{
+    padding-top: 25px;
+    font-size: x-large;
+}
+
+.inscrevaSeText
+{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.newsletterInput
+{
+    display: flex;
+    padding-top: 25px;
+    gap: 15px;
+    width: 100%;
+}
+
+.inputField
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.subscribeButton
+{
+    background-color: navy;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 0px 15px;
+    font-weight: bolder;
+    border: none;
+}
+
+.subscribeButton:hover
+{
+    background-color: rgba(39, 39, 158, 0.479);
+    font-size: 14px;
+}
+
+.privacyPolicy
+{
+    width: 100%;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.newsletterAllPosts
+{
+    background-color: #99B4BF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.allBlogPosts
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 80%;
+    display: flex;
+    font-weight: bolder;
+    color: navy;
+}
+
+.newsletterAllPostsTitle
+{
+    text-decoration: none;
+    font-size: large;
+    color: navy;
+}
+
+.newsletterAllPostsTitle:hover
+{
+    display: flex;
+    color: gray;
+}
+
+.newsletterAllPostsContainer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 430px)
+{
+    .newsletterText
+    {
+      width: 100%;
+    }
+    .newsletterAllPostsContainer
+    {
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .newsletterTitle
+    {
+        padding-top: 50px;
+    }
+
+    .inscrevaSeText
+    {
+        width: 80%;
+        display: inline-block;
+        text-align: justify;
+    }
+
+    .newsletterInput
+    {
+        width: 80%;
+    }
+
+    .privacyPolicy
+    {
+        width: 80%;
+        font-size: 10.5px;
+    }
+
+    .allBlogPosts
+    {
+        align-items: center;
+    }
+
+    .postDescription
+    {
+        color: black;
+    }
+}
